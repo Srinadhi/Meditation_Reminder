@@ -1,4 +1,4 @@
-#!C:\Program Files\Python311\python.exe
+#!C:\Python311\python.exe
 print("Content-Type:text/html\n\r")
 
 import pymysql
@@ -75,6 +75,7 @@ li a:hover:not(.active) {
 x=name.lower()
 query="insert into "+x+" values(%s,%s,%s,%s,%s)"
 value=[doc,med_name,med_cou,boa,tod]
+cur.execute(query,value)
 db.commit()
 print("<h1 style='color:green;'><center>",name,'tabltes updated sucessfully</center></h1>')
 

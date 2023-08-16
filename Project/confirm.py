@@ -1,4 +1,4 @@
-#!C:\Program Files\Python311\python.exe
+#!C:\Python311\python.exe
 print("Content-Type:text/html\n\r")
 
 import pymysql
@@ -91,7 +91,7 @@ if result:
 <h2>Date of Birth: <input type="text" name='d'></h2>
 <h2>Age: <input type="number" name='a'></h2>
 <h2>Aadhar -No: <input type="text" name="r"></h2>
-<button type="submit" style="background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">Login</button>
+<button type="submit" style="background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;">Add Patients</button>
 </center>
 </form>
 </body>
